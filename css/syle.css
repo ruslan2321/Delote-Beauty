@@ -329,4 +329,16 @@ footer a{
     .p-logo{
         left: 45rem;
     }
+    footer h1{
+        margin: 94px;
+    }
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 10px;
+    background-color: #CDAA7D;
 }
