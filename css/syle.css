@@ -9,7 +9,7 @@
 
 body{
     background-color: #111111;
-    height: 5000px;
+    height: 4600px;
     overflow-x: hidden;
 }
 main{
@@ -86,12 +86,10 @@ main p{
 
 
 .img img{
-    margin: 53px;
+    position: relative;
+    margin: 13px;
+    left: 7rem;
 }
-.img p{
-    color: white;
-}
-
 .img-photo::after{
     position: absolute;
     left: 0;
@@ -107,25 +105,119 @@ main p{
     top: 51rem;
     left: 44rem;
 }
+.img-fot{
+    position: relative;
+    left:6rem;
+}
+.img-fot img{
+    margin-left: 12rem;
+    opacity: 0.33;
+    transition: 0.5s all;
+}
+.img-fot img:hover{
+    opacity: 1;
+}
+
+.logo-2{
+    position: relative;
+    color: white;
+    top: 74rem;
+    text-align: center;
+    font-size: 50px;
+}
+.work a{
+    position: relative;
+    color: white;
+    top: 77rem;
+    left: 19rem;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.work a::after{
+    position: absolute;
+    content: '';
+    width:0;
+    height: 2px;
+    background-color: #CDAA7D;
+    bottom: -3px;
+    left: 0;
+    transition: 0.5s all;
+}
+.work a:hover:after{
+    width: 100%;
+}
+.work a:hover{
+    color: #CDAA7D;
+}
+.img-work{
+    position: relative;
+    top: 82rem;
+    left: 10rem;
+}
 
 
+.img-work img:hover{
+    transform: scale(1.2, 1.2);
+}
 
+footer{
+    position: relative;
+    top: 215rem;
+}
+footer img{
+    position: relative;
+    left: 20rem;
+    bottom: 0rem;
+}
+footer::after{
+    position:absolute;
+    content: '';
+    border-top: 2px solid rgb(255 255 255 / 25%);
+    border-bottom: 2px solid rgb(255 255 255 / 25%);
+    width: 58%;
+    height: 15rem;
+    top: -46px;
+    left: 21rem;
+}
 
+footer p{
+    color: #ffffff91;
+    margin-top: 1rem;
 
+}
+.contact{
+    position: relative;
+    left: 27rem;
+    bottom: 3rem;
+    font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.time-work{
+    position: relative;
+    left: 46rem;
+    bottom: 11rem;
+    font-size: 20px;
+}
+footer h1{
+    position: relative;
+    left: 19rem;
+    color: white;
+    bottom: 3rem;
+    font-size: 26px;
+    display: inline;
+    margin: 107px;
+}
+footer a{
+    position: relative;
+    left: 51rem;
+    bottom: 15rem;
+}
+.img img:hover{
+    transform: scale(1.2, 1.2);
+    z-index: 2;
+}
 
 
 
@@ -206,7 +298,17 @@ main p{
         top: 15px;
     }
     .img{
-        left:15rem;
+        margin-top: 20rem;
+        left:0rem;
+    }
+    .img-fot{
+        left: 18rem;
+    }
+    .work a{
+        left: 32rem;
+    }
+    .p-logo{
+        left: 55rem;
     }
 }
 @media screen and (max-width: 1574px){
@@ -217,5 +319,14 @@ main p{
     }
     .img{
         left:0;
+    }
+    .img-fot{
+        left: 7rem;
+    }
+    .work a{
+        left: 20rem;
+    }
+    .p-logo{
+        left: 45rem;
     }
 }
