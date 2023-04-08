@@ -102,7 +102,11 @@ main p{
 }
 
 
-
+.p-logo{
+    position: relative;
+    top: 51rem;
+    left: 44rem;
+}
 
 
 
