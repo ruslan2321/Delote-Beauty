@@ -4,11 +4,13 @@
     padding: 0;
     font-family: 'EB Garamond', serif;
     font-weight: 100;
+    transition: 0.5s all;
 }
 
 body{
     background-color: #111111;
     height: 5000px;
+    overflow-x: hidden;
 }
 main{
     background-image: url(/Delote-Beauty/img/bgc.png);
@@ -49,11 +51,11 @@ nav a{
     top: 10rem;
     font-size: 80px;
 }
-.img-logo{
+/* .img-logo{
     position: relative;
-    left: 304px;
+    left: 305px;
     top: 15px;
-}
+} */
 nav a::after{
     position: absolute;
     content: '';
@@ -69,4 +71,147 @@ nav a:hover::after{
 }
 nav a:hover{
     color: #CDAA7D;
+}
+main p{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    top: 59rem;
+    font-size: 32px;
+}
+.img{
+    position: relative;
+    top: 67rem;
+}
+
+
+.img img{
+    margin: 53px;
+}
+.img p{
+    color: white;
+}
+
+.img-photo::after{
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 32%;
+    height: 352px;
+    border: 5px solid #CDAA7D ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px){
+    .img-logo{
+        position: relative;
+        left: 383px;
+        top: 15px;
+    }
+    .img{
+        left:15rem;
+    }
+}
+@media screen and (max-width: 1574px){
+    .img-logo{
+        position: relative;
+        left: 300px;
+        top: 15px;
+    }
+    .img{
+        left:0;
+    }
 }
